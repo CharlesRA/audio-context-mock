@@ -29,7 +29,7 @@ const context = new AudioContext();
 ### createMediaStreamSource
 
 ```js
-audioSourceNode = context.createMediaStreamSource(stream);
+audioSourceNode = context.createMediaStreamSource();
 ```
 
 ## Contributing
