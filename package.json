@@ -1,6 +1,6 @@
 {
 	"name": "audio-context-mock",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {},
@@ -8,7 +8,12 @@
 		"type": "git",
 		"url": "git+https://github.com/CharlesRA/audio-context-mock.git"
 	},
-	"keywords": [],
+	"keywords": [
+		"AudioContext",
+		"webAPI",
+		"mock",
+		"node"
+	],
 	"author": "",
 	"license": "ISC",
 	"bugs": {
