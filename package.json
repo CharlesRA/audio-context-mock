@@ -1,0 +1,21 @@
+{
+	"name": "audio-context-mock",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CharlesRA/audio-context-mock.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/CharlesRA/audio-context-mock/issues"
+	},
+	"homepage": "https://github.com/CharlesRA/audio-context-mock#readme",
+	"dependencies": {
+		"web-audio-engine": "0.13.4"
+	}
+}
