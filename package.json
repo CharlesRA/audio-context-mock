@@ -14,7 +14,7 @@
 		"mock",
 		"node"
 	],
-	"author": "",
+	"author": "CharlesRA",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/CharlesRA/audio-context-mock/issues"
