@@ -20,9 +20,11 @@ const context = new AudioContext();
 
 ## API
 
-| Method                                                | Documentation Link                                                                    | Available |
-| ----------------------------------------------------- | ------------------------------------------------------------------------------------- | :-------: |
-| [createMediaStreamSource()](#createMediaStreamSource) | https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaStreamSource |    ✅     |
+| Method                                                          | Documentation Link                                                                         | Available |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | :-------: |
+| [createMediaElementSource()](#createMediaElementSource)         | https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaElementSource     |    ❌     |
+| [createMediaStreamDestination()](#createMediaStreamDestination) | https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaStreamDestination |    ❌     |
+| [createMediaStreamSource()](#createMediaStreamSource)           | https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaStreamSource      |    ✅     |
 
 ---
 
