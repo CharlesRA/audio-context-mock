@@ -22,16 +22,28 @@ const context = new AudioContext();
 
 | Method                                                          | Documentation Link                                                                         | Available |
 | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | :-------: |
-| [createMediaElementSource()](#createMediaElementSource)         | https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaElementSource     |    ❌     |
-| [createMediaStreamDestination()](#createMediaStreamDestination) | https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaStreamDestination |    ❌     |
+| [createMediaElementSource()](#createMediaElementSource)         | https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaElementSource     |    ✅     |
+| [createMediaStreamDestination()](#createMediaStreamDestination) | https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaStreamDestination |    ✅     |
 | [createMediaStreamSource()](#createMediaStreamSource)           | https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaStreamSource      |    ✅     |
 
 ---
 
+### createMediaElementSource
+
+```js
+const audioSourceNode = context.createMediaElementSource();
+```
+
+### createMediaStreamDestination
+
+```js
+const destination = audioCtx.createMediaStreamDestination();
+```
+
 ### createMediaStreamSource
 
 ```js
-audioSourceNode = context.createMediaStreamSource();
+const audioSourceNode = context.createMediaStreamSource();
 ```
 
 ## Contributing
