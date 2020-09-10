@@ -1,4 +1,6 @@
-createMediaStreamSource = function () {
+"use strict";
+
+const createMediaStreamSource = function () {
 	var osc = this.createOscillator();
 	osc.type = "sine";
 	var gain = this.createGain();
